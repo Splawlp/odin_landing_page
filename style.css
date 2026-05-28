@@ -187,3 +187,9 @@ blockquote footer {
   font-family: "Roboto-light", sans-serif;
 }
 
+.footer{
+  text-align: center;
+  background-color: var(--dark-color);
+  color: var(--main-text-color);
+  padding-block: 20px;
+}
