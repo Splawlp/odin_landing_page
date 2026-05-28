@@ -139,11 +139,13 @@ a:hover{
 
 blockquote {
   background-color: var(--hero-secondary-text-color);
-  padding: 100px 2% ;
-  padding-left: 15px;
   font-style: italic;
   font-family: "Roboto-light", sans-serif;
   font-size: 36px;
+}
+
+blockquote p{
+  padding: 70px 100px 0;
 }
 
 blockquote footer {
@@ -151,4 +153,5 @@ blockquote footer {
   font-size: 30px;
   font-style: normal;
   font-family: var(--font-family-bold);
+  padding-bottom: 40px;
 }
