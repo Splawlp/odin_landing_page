@@ -36,6 +36,15 @@ body{
   font-family: var(--font-family-main);
 }
 
+a{
+  color: var(--main-text-color);
+  transition: 0.3s;
+}
+
+a:hover{
+  filter: brightness(0.8);
+}
+
 .container{
   padding: 0 250px;
 }
@@ -43,6 +52,7 @@ body{
 .hero{
   height: 100vw;
   background-color: var(--dark-color);
+  color: var(--main-text-color);
 }
 
 .nav{
@@ -58,12 +68,42 @@ body{
   width: 50%;
 }
 
-.nav_list_link{
-  color: var(--main-text-color);
-}
-
 .nav_logo{
   font-size: 24px;
-  color: var(--main-text-color);
   font-family: "Roboto-extra-bold", sans-serif;
+}
+
+.main{
+  display: flex;
+  justify-content: space-between;
+  margin-block: 80px;
+}
+
+.left_container,
+.right_container{
+  width: 45%;
+}
+
+.main_title{
+  font-family: "Roboto-extra-bold", sans-serif;
+  font-size: 48px;
+}
+
+.main_btn{
+  display: block;
+  width: 120px;
+  padding-block: 5px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: var(--button-color);
+  margin-top: 10px;
+}
+
+
+
+.right_container{
+  display: flex;
+  background-color: gray;
+  align-items: center;
+  justify-content: center;
 }
