@@ -1,3 +1,5 @@
+@import '/reset.css';
+
 @font-face {
   font-family: "Roboto-light";
   src: url('/assets/fonts/Roboto_Condensed-Light.woff2');
@@ -30,3 +32,38 @@
   --button-color: #3882F6;
 }
 
+body{
+  font-family: var(--font-family-main);
+}
+
+.container{
+  padding: 0 250px;
+}
+
+.hero{
+  height: 100vw;
+  background-color: var(--dark-color);
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-block: 15px;
+}
+
+.nav_list{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.nav_list_link{
+  color: var(--main-text-color);
+}
+
+.nav_logo{
+  font-size: 24px;
+  color: var(--main-text-color);
+  font-family: "Roboto-extra-bold", sans-serif;
+}
