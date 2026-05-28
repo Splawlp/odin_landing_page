@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Roboto-light";
+  src: url('/assets/fonts/Roboto_Condensed-Light.woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto-regular";
+  src: url('/assets/fonts/Roboto_Condensed-Regular.woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto-extra-bold";
+  src: url('/assets/fonts/Roboto_Condensed-ExtraBold.woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+:root{
+  --font-family-main: "Roboto-regular", sans-serif;
+
+  --dark-color: #1F2937;
+  --main-text-color: #F9FAF8;
+  --hero-secondary-text-color: #E5E7EB;
+  --button-color: #3882F6;
+}
+
