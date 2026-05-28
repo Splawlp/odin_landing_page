@@ -22,15 +22,17 @@
   font-display: swap;
 }
 
-
 :root{
   --font-family-main: "Roboto-regular", sans-serif;
+  --font-family-bold: "Roboto-extra-bold", sans-serif;
 
   --dark-color: #1F2937;
   --main-text-color: #F9FAF8;
   --hero-secondary-text-color: #E5E7EB;
   --button-color: #3882F6;
 }
+
+
 
 body{
   font-family: var(--font-family-main);
@@ -50,7 +52,7 @@ a:hover{
 }
 
 .hero{
-  height: 100vw;
+  height: 500px;
   background-color: var(--dark-color);
   color: var(--main-text-color);
 }
@@ -70,7 +72,7 @@ a:hover{
 
 .nav_logo{
   font-size: 24px;
-  font-family: "Roboto-extra-bold", sans-serif;
+  font-family: var(--font-family-bold);
 }
 
 .main{
@@ -85,7 +87,7 @@ a:hover{
 }
 
 .main_title{
-  font-family: "Roboto-extra-bold", sans-serif;
+  font-family: var(--font-family-bold);
   font-size: 48px;
 }
 
@@ -99,11 +101,38 @@ a:hover{
   margin-top: 10px;
 }
 
-
-
 .right_container{
   display: flex;
   background-color: gray;
   align-items: center;
   justify-content: center;
+}
+
+.cards{
+  margin: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cards_title{
+  font-size: 36px;
+  font-family: var(--font-family-bold);
+  color: var(--dark-color);
+  text-align: center;
+  margin-block: 50px;
+}
+
+.card{
+  display: block;
+  width: 140px;
+  text-align: center;
+}
+
+.img_placeholder{
+  display: block;
+  width: 140px;
+  height: 140px;
+  border-radius: 15px;
+  border: 3px solid var(--button-color);
+  margin-bottom: 10px;
 }
