@@ -136,3 +136,19 @@ a:hover{
   border: 3px solid var(--button-color);
   margin-bottom: 10px;
 }
+
+blockquote {
+  background-color: var(--hero-secondary-text-color);
+  padding: 100px 2% ;
+  padding-left: 15px;
+  font-style: italic;
+  font-family: "Roboto-light", sans-serif;
+  font-size: 36px;
+}
+
+blockquote footer {
+  text-align: right;
+  font-size: 30px;
+  font-style: normal;
+  font-family: var(--font-family-bold);
+}
